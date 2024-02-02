@@ -1,5 +1,7 @@
 <?php
 
+echo 'hello';
+
 if(isset($_POST['signin'])){
     $pdo = new PDO("mysql:host=localhost;dbname=securite", 'root', '');
     $login = $_POST['login'];
